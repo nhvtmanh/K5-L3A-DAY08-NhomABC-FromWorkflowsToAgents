@@ -13,7 +13,7 @@
 | --: | ------ | ---- | ----- | ------ | ------- |
 |   1 | Lê Hoàng Anh | 2A202603691 | lehoaganh2910@gmail.com | hoanganh2910 | Benchmark và phân tích kết quả |
 |   2 | Điền họ tên | Điền MSSV | Điền email | Điền GitHub | Kiểm thử độ bền, bảo mật và submission |
-|   3 | Điền họ tên | Điền MSSV | Điền email | Điền GitHub | Nghiên cứu, ablation và báo cáo |
+|   3 | Phan Văn Cường | 2A202603669 | 26ai.cuongpv2@vinuni.edu.vn | pcuongggg333 | Nghiên cứu, ablation và báo cáo |
 
 ### Phân công công việc
 
@@ -42,7 +42,7 @@ Không sửa `src/lab8/metrics.py`, `src/lab8/durability.py`, `src/lab8/policy.p
 | --- | --- | --- | --- |
 | Thành viên 1 — điền tên | Benchmark và phân tích kết quả | | |
 | Thành viên 2 — điền tên | Kiểm thử độ bền, bảo mật và submission | | |
-| Thành viên 3 — điền tên | Nghiên cứu, ablation và báo cáo | | |
+| Thành viên 3 — Phan Văn Cường | Nghiên cứu, ablation và báo cáo | | |
 
 ## Cá nhân
 

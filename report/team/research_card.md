@@ -17,19 +17,19 @@ Phần này nối tiếp phần mini research ở buổi lý thuyết (slide 62�
 
 | Field | Hướng dẫn | Nhóm điền |
 | --- | --- | --- |
-| CÂU | R1 / R2 / R3 / R4 | |
-| SOURCE | Paper/blog, năm, URL, loại bằng chứng (benchmark, production report, blog kinh nghiệm) | |
-| CLAIM | Một kết luận gốc của nguồn. Không viết rộng hơn phạm vi paper | |
-| BOUNDARY | Model / dataset / setup giới hạn kết luận đó | |
-| HYPOTHESIS | Nếu đổi shape A→B (hoặc bật/tắt một thành phần), metric X sẽ đổi theo hướng nào, khoảng bao nhiêu | |
-| METHOD | Biến giữ cố định: model, tools, seed, corpus, giá, evaluator. Biến duy nhất được thay đổi: … | |
-| FAILURE / METRIC | Một lỗi dự kiến và cách đo nó: pass rate, pass^5, variance, cost/success, leak, bypass | |
+| CÂU | R1 / R2 / R3 / R4 | R4 — Evaluation confounders |
+| SOURCE | Agent evaluation literature, 2026; bằng chứng benchmark có kiểm soát trong lab và hướng dẫn R4 của đề bài |
+| CLAIM | Muốn so sánh topology, cần giữ model, tools, seed, corpus, pricing và evaluator cố định; nếu không, chênh lệch metric có thể đến từ biến gây nhiễu thay vì kiến trúc. |
+| BOUNDARY | Kết luận chỉ áp dụng cho MockLLM, 14 public claims, 5 seed, SQLite fresh-per-trial và policy snapshot `2026-11-15`; không suy rộng thành model production. |
+| HYPOTHESIS | Khi giữ nguyên corpus, seed, giá và evaluator, workflow sẽ có pass rate tương đương single/orchestrator nhưng cost/success thấp hơn; swarm có thể có variance cao hơn do phụ thuộc seed. |
+| METHOD | Giữ cố định MockLLM, read/write tools, seeds `11,22,33,44,55`, 14 claims, world/policy, pricing, fresh SQLite và evaluator. Biến thay đổi duy nhất trong benchmark là shape/topology. |
+| FAILURE / METRIC | Nhiễu dự kiến: model call hoặc topology làm tăng cost và seed variance; đo pass rate, pass^5, seed variance, cost/success, mean/p95 steps, crash safety và trace leak/bypass. |
 
 ## Kết quả ablation
 
-- Lệnh đã chạy (copy nguyên văn):
-- Run id / file report:
-- Kết quả so với hypothesis (đúng / sai / không kết luận được), kèm số liệu:
+- Lệnh đã chạy (copy nguyên văn): `python -m lab8.benchmark --shapes workflow,single,orchestrator,swarm --cases data/public_claims.jsonl --seeds 11,22,33,44,55 --out reports/benchmark.json`
+- Run id / file report: `src/reports/benchmark.json`; 70 trial/shape, 4 shape, 5 seed.
+- Kết quả so với hypothesis (đúng / sai / không kết luận được), kèm số liệu: đúng trên benchmark public. Workflow/single/orchestrator đều đạt pass rate và pass^5 `1.000`, variance `0.000000`; cost/success lần lượt khoảng `27.857`, `29.121`, `46.429` VND. Swarm đạt pass rate `0.985714`, pass^5 `0.928571`, variance `0.000816`, cost/success `49.567` VND. Đây là controlled comparison giữa shape, chưa phải ablation một biến nội bộ nên không kết luận quan hệ nhân quả chi tiết.
 - Giới hạn: MockLLM không phải model sản xuất, latency là `unavailable`.
 
 Muốn đi xa hơn một ablation để lấy điểm cộng thì xem [docs/bonus_topics.md](../../docs/bonus_topics.md).
