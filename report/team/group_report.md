@@ -4,7 +4,7 @@
 
 - Tên nhóm: ABC
 - Thành viên: xem `TEAM.md`
-- Commit chốt (trùng `report/team/decision_adr.md`): `baa3103`
+- Commit chốt (trùng `report/team/decision_adr.md`): 1fba04b9825b00a46b356b7fa6d58eb9a4db9352
 
 ## 2. Mục tiêu và cách tiếp cận
 

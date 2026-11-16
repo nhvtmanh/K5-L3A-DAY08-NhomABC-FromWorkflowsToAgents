@@ -5,7 +5,7 @@
 - Tên nhóm: ABC
 - Lớp: L3A
 - Repo nhóm: `K5-L3A-DAY08-NhomABC-FromWorkflowsToAgents`
-- URL repo, nhánh nộp, commit chốt: https://github.com/nhvtmanh/K5-L3A-DAY08-NhomABC-FromWorkflowsToAgents
+- URL repo, nhánh nộp, commit chốt: https://github.com/nhvtmanh/K5-L3A-DAY08-NhomABC-FromWorkflowsToAgents/commit/1fba04b9825b00a46b356b7fa6d58eb9a4db9352
 
 ## Thành viên
 
@@ -36,6 +36,6 @@
 
 | Người                                     | Vai                                    | Commit                                   | Test đã thêm hoặc sửa |
 | ----------------------------------------- | -------------------------------------- | ---------------------------------------- | --------------------- |
-| Thành viên 1 — Nguyễn Hoàng Văn Tiến Mạnh | Benchmark và phân tích kết quả         |                                          |                       |
+| Thành viên 1 — Nguyễn Hoàng Văn Tiến Mạnh | Benchmark và phân tích kết quả         | 1fba04b9825b00a46b356b7fa6d58eb9a4db9352 |                       |
 | Thành viên 2 — Lê Hoàng Anh               | Kiểm thử độ bền, bảo mật và submission | e79bc5da211ebbef907cee4dca6cf63af1002574 |                       |
 | Thành viên 3 — Phan Văn Cường             | Nghiên cứu, ablation và báo cáo        | cc20950695761a152b67356b3e3d0351200243da |                       |

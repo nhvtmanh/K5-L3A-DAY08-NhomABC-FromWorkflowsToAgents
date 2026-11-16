@@ -3,7 +3,7 @@
 Quyết định dựa trên benchmark public của bốn shape, cùng 14 claim và năm seed `11,22,33,44,55` (70 trial mỗi shape). Shape chọn dưới đây được dùng cho cổng hidden; kết quả public chưa xác nhận ngưỡng hidden.
 
 - Shape chọn: workflow
-- Commit hash: cecf3f5a0905c2ced4412c86a5ec46e9c9dd282c
+- Commit hash: 1fba04b9825b00a46b356b7fa6d58eb9a4db9352
 - Run id dẫn chứng: R-workflow-C-001-s11
 - Pass rate / pass^5 / seed min-max / variance: 1.000 / 1.000 / 1.000–1.000 / 0.000000
 - Cost per success (mô phỏng, VND): ~ 27.86 VND
