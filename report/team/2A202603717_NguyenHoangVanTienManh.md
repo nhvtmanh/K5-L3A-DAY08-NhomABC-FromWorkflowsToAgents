@@ -5,7 +5,7 @@
 - Họ tên: Nguyễn Hoàng Văn Tiến Mạnh
 - MSSV: 2A202603717
 - Email: nhvtmanh@gmail.com
-- GitHub: https://github.com/nhvtmanh
+- GitHub: nhvtmanh
 
 ## 2. Phần việc phụ trách
 

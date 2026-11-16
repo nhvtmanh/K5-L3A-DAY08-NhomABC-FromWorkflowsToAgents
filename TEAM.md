@@ -13,7 +13,7 @@
 | --: | -------------------------- | ----------- | --------------------------- | ------------ | -------------------------------------- |
 |   1 | Lê Hoàng Anh               | 2A202603691 | lehoaganh2910@gmail.com     | hoanganh2910 | Benchmark và phân tích kết quả         |
 |   2 | Nguyễn Hoàng Văn Tiến Mạnh | 2A202603717 | nhvtmanh@gmail.com          | nhvtmanh     | Kiểm thử độ bền, bảo mật và submission |
-|   3 | Phan Văn Cường             | 2A202603669 | 26ai.cuongpv2@vinuni.edu.vn | pcuongggg333 | Nghiên cứu, ablation và báo cáo  |
+|   3 | Phan Văn Cường             | 2A202603669 | 26ai.cuongpv2@vinuni.edu.vn | pcuongggg333 | Nghiên cứu, ablation và báo cáo        |
 
 ### Phân công công việc
 
@@ -34,8 +34,8 @@
 
 ## Bảng đóng góp
 
-| Người                                     | Vai                                    | Commit | Test đã thêm hoặc sửa |
-| ----------------------------------------- | -------------------------------------- | ------ | --------------------- |
-| Thành viên 1 — Nguyễn Hoàng Văn Tiến Mạnh | Benchmark và phân tích kết quả         |        |                       |
-| Thành viên 2 — điền tên                   | Kiểm thử độ bền, bảo mật và submission |        |                       |
-| Thành viên 3 — Phan Văn Cường             | Nghiên cứu, ablation và báo cáo        |cc20950695761a152b67356b3e3d0351200243da|                       |
+| Người                                     | Vai                                    | Commit                                   | Test đã thêm hoặc sửa |
+| ----------------------------------------- | -------------------------------------- | ---------------------------------------- | --------------------- |
+| Thành viên 1 — Nguyễn Hoàng Văn Tiến Mạnh | Benchmark và phân tích kết quả         |                                          |                       |
+| Thành viên 2 — Lê Hoàng Anh               | Kiểm thử độ bền, bảo mật và submission | e79bc5da211ebbef907cee4dca6cf63af1002574 |                       |
+| Thành viên 3 — Phan Văn Cường             | Nghiên cứu, ablation và báo cáo        | cc20950695761a152b67356b3e3d0351200243da |                       |
