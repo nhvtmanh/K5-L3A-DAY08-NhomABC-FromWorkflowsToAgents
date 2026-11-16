@@ -13,7 +13,7 @@
 | --: | -------------------------- | ----------- | --------------------------- | ------------ | -------------------------------------- |
 |   1 | Lê Hoàng Anh               | 2A202603691 | lehoaganh2910@gmail.com     | hoanganh2910 | Benchmark và phân tích kết quả         |
 |   2 | Nguyễn Hoàng Văn Tiến Mạnh | 2A202603717 | nhvtmanh@gmail.com          | nhvtmanh     | Kiểm thử độ bền, bảo mật và submission |
-|   3 | Phan Văn Cường             | 2A202603669 | 26ai.cuongpv2@vinuni.edu.vn | pcuongggg333 | Nghiên cứu, ablation và báo cáo        |
+|   3 | Phan Văn Cường             | 2A202603669 | 26ai.cuongpv2@vinuni.edu.vn | pcuongggg333 | Nghiên cứu, ablation và báo cáo  |
 
 ### Phân công công việc
 
