@@ -5,7 +5,7 @@
 - Họ tên: Lê Hoàng Anh
 - MSSV: 2A202603691
 - Email: lehoaganh2910@gmail.com
-- GitHub: hoanganhl
+- GitHub: hoanganh2910
 
 ## 2. Phần việc phụ trách
 
