@@ -38,4 +38,4 @@
 | ----------------------------------------- | -------------------------------------- | ------ | --------------------- |
 | Thành viên 1 — Nguyễn Hoàng Văn Tiến Mạnh | Benchmark và phân tích kết quả         |        |                       |
 | Thành viên 2 — điền tên                   | Kiểm thử độ bền, bảo mật và submission |        |                       |
-| Thành viên 3 — Phan Văn Cường             | Nghiên cứu, ablation và báo cáo        |        |                       |
+| Thành viên 3 — Phan Văn Cường             | Nghiên cứu, ablation và báo cáo        |cc20950695761a152b67356b3e3d0351200243da|                       |
