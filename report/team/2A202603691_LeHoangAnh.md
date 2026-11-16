@@ -4,8 +4,7 @@
 
 - Họ tên: Lê Hoàng Anh
 - MSSV: 2A202603691
-- Email: Chưa điền
-- GitHub: Chưa điền
+
 
 ## 2. Phần việc phụ trách
 
