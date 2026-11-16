@@ -33,7 +33,12 @@ from lab8.db import connect
 from lab8.durability import issue_refund
 from lab8.schemas import Budget, RunResult, make_run_id
 from lab8.shapes.common import finish
-from lab8.tools import compute_compensation, get_claim_view, lookup_order, tool_cost
+from lab8.tools import (
+    compute_compensation,
+    get_claim_view,
+    lookup_order,
+    tool_cost,
+)
 from lab8.trace import Trace
 
 

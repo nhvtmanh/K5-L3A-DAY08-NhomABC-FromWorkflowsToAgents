@@ -43,7 +43,6 @@ def run_claim(
     try:
         budget = Budget()
         trace = Trace(make_run_id("single", claim_id, seed))
-
         budget.add_tool(tool_cost())
         claim = get_claim_view(conn, claim_id)
         trace.add(
@@ -151,6 +150,7 @@ def run_claim(
             observation={"claim": claim_context},
             decide=decide,
             max_steps=8,
+            worker=True,
         )
         final = react_result["final"]
         status = final["status"]
