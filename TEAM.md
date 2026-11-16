@@ -11,7 +11,7 @@
 
 | STT | Họ tên | MSSV | Email | GitHub | Vai trò |
 | --: | ------ | ---- | ----- | ------ | ------- |
-|   1 | Lê Hoàng Anh | 2A202603691 |      |        | Benchmark và phân tích kết quả |
+|   1 | Lê Hoàng Anh | 2A202603691 | lehoaganh2910@gmail.com | hoanganhl | Benchmark và phân tích kết quả |
 |   2 | Điền họ tên | Điền MSSV | Điền email | Điền GitHub | Kiểm thử độ bền, bảo mật và submission |
 |   3 | Điền họ tên | Điền MSSV | Điền email | Điền GitHub | Nghiên cứu, ablation và báo cáo |
 
